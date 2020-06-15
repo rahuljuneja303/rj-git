@@ -1,6 +1,6 @@
 1) first create a repository in "Github" and extract clone with ssh key. **use
-visualstudio terminal type= git clone
-git@github.com:rahuljuneja303/demo-repo.git 2) use GIT GUI -help selection
+visualstudio terminal type= git clonegit@github.com:rahuljuneja303/demo-repo.git 
+2) use GIT GUI -help selection
 create a ssh key and add a passphrase 3) After cloning to local pc(visualstudio)
 you have to "Track" the file before you can add to the GIT **Use visualstudio
 terminal type= GIT add . or specific file name = git add index.html 4) Check the
