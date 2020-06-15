@@ -1,14 +1,19 @@
 1) first create a repository in "Github" and extract clone with ssh key. **use
 visualstudio terminal type= git clonegit@github.com:rahuljuneja303/demo-repo.git 
 2) use GIT GUI -help selection
-create a ssh key and add a passphrase 3) After cloning to local pc(visualstudio)
+create a ssh key and add a passphrase 
+3) After cloning to local pc(visualstudio)
 you have to "Track" the file before you can add to the GIT **Use visualstudio
-terminal type= GIT add . or specific file name = git add index.html 4) Check the
-"Status" of GIT (any file modified or added recently) **Use visualstudio
-terminal type=Git status 5) Now we will add comments to the github *Use
+terminal type= GIT add . or specific file name = git add index.html 
+4) Check the"Status" of GIT (any file modified or added recently) **Use visualstudio
+terminal type=Git status 
+5) Now we will add comments to the github *Use
 visualstudio terminal type= git commit -m “index.html” -m “this is index file”
 But with above action we have saved the code locally. Now to save the codet GIT
-Hub 6) Open GIT BASH in your local pc- and Ensure the ssh-agent is running *Use
-GIT BASH terminal type=eval $(ssh-agent -s) 7) Add your SSH private key to the
-ssh-agent. *Use GIT BASH terminal type=$ ssh-add ~/.ssh/id_rsa 8) NOw push the
+Hub 
+6) Open GIT BASH in your local pc- and Ensure the ssh-agent is running *Use
+GIT BASH terminal type=eval $(ssh-agent -s) 
+7) Add your SSH private key to the
+ssh-agent. *Use GIT BASH terminal type=$ ssh-add ~/.ssh/id_rsa
+8) NOw push the
 code to GITHUB repository *Use visualstudio terminal type=git push origin master
