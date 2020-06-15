@@ -1,0 +1,12 @@
+1) Create a new folder like git-demo and create new files *Use visualstudio
+terminal type=git init 
+2) Now check status = git status and add files
+3) To TRACK *Use visualstudio terminal type=git add .\1BASIC.md .\2Git2Local.html
+.\3local2GIT.HTML 
+4) Again check status= git status | files are tracked now 
+5) Commit the files = get commit -m 
+6) Create a same name reporsitory in GITHUB 
+7) NOw make connection to GITHUB repository via visual studio *Use visualstudio
+terminal type= git remote add origin git@github.com:rahuljuneja303/git-demo.git
+8) check the remote status = git remote -v 9) NOw push the code to GITHUB
+repository *Use 
